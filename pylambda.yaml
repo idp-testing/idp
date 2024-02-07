@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: python-lambda
+  name: a-python-lambda
   title: Create a Python lambda app
   description: A template to create a new Python app
   tags:
