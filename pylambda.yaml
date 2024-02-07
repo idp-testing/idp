@@ -18,6 +18,8 @@ spec:
         project_name:
           title: Name of your new app
           type: string
+          constraints:
+            - regex: "^[A-Za-z][A-Za-z0-9_]*[A-Za-z]$"
           description: Unique name of the app (will also be name of the repository)
     - title: Service Infrastructure Details
       required:
