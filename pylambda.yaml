@@ -46,7 +46,7 @@ spec:
       name: Creating your python app
       action: trigger:harness-custom-pipeline
       input:
-        url: "https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/module/cd/orgs/SE_Sandbox/projects/Capital_One_IDP_Demo/pipelines/E2E_Onboarding/pipeline-studio?storeType=INLINE"
+        url: "https://app.harness.io/ng/account/6_vVHzo9Qeu9fXvj-AcbCQ/module/cd/orgs/default/projects/IDP/pipelines/New_Application_Onboarding/pipeline-studio?storeType=INLINE"
         inputset:
           project_name: ${{ parameters.project_name }}
         apikey: ${{ parameters.token }}
